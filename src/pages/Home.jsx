@@ -1,4 +1,4 @@
-import HeroSection from "../components/heroSection"
+import HeroSection from "../components/HeroSection"
 import HowItWork from "../components/HowItWork"
 import TopNiches from "../components/TopNiches"
 
