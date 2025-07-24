@@ -139,7 +139,7 @@ export const getUser = () => async (dispatch) => {
       const response = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/user/getuser`, {
         headers: { Authorization: `Bearer ${token}` },
       });
-      console.log(response)
+      
       dispatch(fetchUserSuccess(response.data.data));
       dispatch(clearAllErrors());
     } catch (error) {

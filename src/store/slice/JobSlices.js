@@ -153,7 +153,7 @@ export const fetchSingleJob = (jobId) => async (dispatch) => {
         withCredentials: true,
       }
     );
-    console.log(response)
+    
     dispatch(jobSlice.actions.successForSingleJob(response.data.job));
     dispatch(jobSlice.actions.clearAllErrors());
   } catch (error) {
