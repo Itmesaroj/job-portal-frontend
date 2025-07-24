@@ -1,8 +1,31 @@
-# React + Vite
+# 🧑‍💼 Job Portal Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of the **Job Portal** application built with **React.js**, **Redux Toolkit**, and **Vite**. It allows job seekers to apply for jobs and employers to post jobs.
 
-Currently, two official plugins are available:
+🌐 Live URL: [https://jobmyportal.netlify.app](https://jobmyportal.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
+
+- React.js
+- Redux Toolkit
+- Axios
+- Vite
+- Netlify (for deployment)
+
+## ⚙️ Features
+
+- User registration and login (job seeker & employer)
+- Job search with filters (city, niche, keywords)
+- Job posting & management for employers
+- Application submission for job seekers
+- Profile update and password management
+- Toast notifications and error handling
+- Responsive UI
+
+## 🔌 Setup Locally
+
+```bash
+git clone https://github.com/Itmesaroj/job-portal-frontend
+cd job-portal-frontend
+npm install
+npm run dev
